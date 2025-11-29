@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multitool – Free Online Tools</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #BA1E3D;
+            color: #fff;
+        }
+        header {
+            backdrop-filter: blur(18px);
+            background: rgba(186, 30, 61, 0.35);
+            padding: 16px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            transition: background 0.3s ease;
+        }
+        header h2 {
+            margin: 0;
+            font-size: 26px;
+            font-weight: 600;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .hero h1 {
+            font-size: 42px;
+            font-weight: 700;
+        }
+        .tools-grid {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+        .tool-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border-radius: 16px;
+            padding: 22px;
+            text-align: center;
+            transition: 0.3s;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+            cursor: pointer;
+        }
+        .tool-card:hover {
+            transform: translateY(-6px);
+            background: rgba(255, 255, 255, 0.19);
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #cbd5e1;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(12px);
+            background: rgba(255, 255, 255, 0.05);
+        }
+    @media (max-width: 600px) {
+        header h2 {
+            font-size: 20px;
+        }
+
+        .hero h1 {
+            font-size: 30px;
+        }
+
+        .tools-grid {
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 15px;
+            padding: 25px 15px;
+        }
+
+        .tool-card {
+            padding: 16px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h2>Multitool</h2>
+</header>
+
+<section class="hero">
+    <h1>All-in-One Online Tools</h1>
+    <p>Your free toolbox for converters, generators, calculators & more.</p>
+</section>
+
+<section class="tools-grid">
+
+    <!-- IMAGE TOOLS -->
+    <div class="tool-card"><h3>Image Converter</h3></div>
+    <div class="tool-card"><h3>Image Compressor</h3></div>
+    <div class="tool-card"><h3>Image Resizer</h3></div>
+    <div class="tool-card"><h3>Image Cropper</h3></div>
+    <div class="tool-card"><h3>Image to Text (OCR)</h3></div>
+    <div class="tool-card"><h3>Image Rotator/Flipper</h3></div>
+
+    <!-- PDF & DOCUMENT TOOLS -->
+    <div class="tool-card"><h3>PDF to Word</h3></div>
+    <div class="tool-card"><h3>Word to PDF</h3></div>
+    <div class="tool-card"><h3>PDF Compressor</h3></div>
+    <div class="tool-card"><h3>PDF Merger & Splitter</h3></div>
+    <div class="tool-card"><h3>Document Converter</h3></div>
+    <div class="tool-card"><h3>PDF Lock/Unlock</h3></div>
+    <div class="tool-card"><h3>eSign PDF</h3></div>
+
+    <!-- CALCULATORS -->
+    <div class="tool-card"><h3>Scientific Calculator</h3></div>
+    <div class="tool-card"><h3>Age Calculator</h3></div>
+    <div class="tool-card"><h3>BMI Calculator</h3></div>
+    <div class="tool-card"><h3>Loan EMI Calculator</h3></div>
+    <div class="tool-card"><h3>GST Calculator</h3></div>
+    <div class="tool-card"><h3>Currency Converter</h3></div>
+
+    <!-- TEXT TOOLS -->
+    <div class="tool-card"><h3>Text Case Converter</h3></div>
+    <div class="tool-card"><h3>Word & Character Counter</h3></div>
+    <div class="tool-card"><h3>Remove Duplicate Lines</h3></div>
+    <div class="tool-card"><h3>Text Sorter</h3></div>
+    <div class="tool-card"><h3>Text Reverser</h3></div>
+    <div class="tool-card"><h3>Text Encryptor/Decryptor</h3></div>
+
+    <!-- DEVELOPER TOOLS -->
+    <div class="tool-card"><h3>HTML/CSS/JS Minifier</h3></div>
+    <div class="tool-card"><h3>JSON Formatter & Validator</h3></div>
+    <div class="tool-card"><h3>Base64 Encoder/Decoder</h3></div>
+    <div class="tool-card"><h3>URL Encoder/Decoder</h3></div>
+    <div class="tool-card"><h3>Regex Tester</h3></div>
+
+    <!-- COLOR TOOLS -->
+    <div class="tool-card"><h3>Color Picker & Converter</h3></div>
+    <div class="tool-card"><h3>Color Picker from Image</h3></div>
+    <div class="tool-card"><h3>HEX to RGB Converter</h3></div>
+    <div class="tool-card"><h3>Gradient Generator</h3></div>
+    <div class="tool-card"><h3>Contrast Checker</h3></div>
+    <div class="tool-card"><h3>Palette Generator</h3></div>
+    <div class="tool-card"><h3>Color Blindness Simulator</h3></div>
+
+    <!-- SEO TOOLS -->
+    <div class="tool-card"><h3>Keyword Density Checker</h3></div>
+    <div class="tool-card"><h3>Meta Tag Analyzer</h3></div>
+    <div class="tool-card"><h3>Word Counter</h3></div>
+
+    <!-- CODE & GENERATOR TOOLS -->
+    <div class="tool-card"><h3>QR Code Generator & Scanner</h3></div>
+    <div class="tool-card"><h3>Barcode Generator</h3></div>
+    <div class="tool-card"><h3>UUID Generator</h3></div>
+
+    <!-- UTILITY TOOLS -->
+    <div class="tool-card"><h3>Unit Converter</h3></div>
+    <div class="tool-card"><h3>Time Zone Converter</h3></div>
+    <div class="tool-card"><h3>Random Number Generator</h3></div>
+    <div class="tool-card"><h3>Password Generator</h3></div>
+
+</section>
+
+<footer>
+    © 2025 Multitool — All Rights Reserved.
+</footer>
+
+</body>
+</html>
